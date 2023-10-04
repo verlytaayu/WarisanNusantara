@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5%;
+	padding-left: 5%;
+	background-color: black;
+	border-bottom: 1px grey;
+	width: 100%;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25 px;
+
+}
+nav ul li a {
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	position: revert-layer;
+}
+nav ul li a:hover {
+	color: crimson;
+	transition: 0.5s;
+}
+.Serunai {
+	width: 100%;
+	padding: 100px 0;
+	background-color: white;
+}
+.alat-serunai {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.alat-serunai img {
+	height: auto;
+	width: 450px;
+	border-radius: 30px;
+}
+.serunai-text {
+	width: 550px;
+}
+.serunai-text h2 {
+	color: black;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid red;
+}
+.serunai-text p {
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 15px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+.Piring {
+	width: 100%;
+	padding: 100px 0;
+	background-color: white;
+}
+.Tari-piring {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.Tari-piring img {
+	height: auto;
+	width: 450px;
+	border-radius: 30px;
+}
+.Piring-text {
+	width: 550px;
+}
+.Piring-text h2 {
+	color: black;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid red;
+}
+.Piring-text p {
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 15px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+.Nias{
+	width: 100%;
+	padding: 100px 0;
+	background-color: white;
+}
+.Lompat-batu {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.Lompat-batu img {
+	height: auto;
+	width: 450px;
+	border-radius: 30px;
+}
+.nias-text {
+	width: 550px;
+}
+.nias-text h2 {
+	color: black;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid red;
+}
+.nias-text p {
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 15px;
+	margin-bottom: 45px;
+	text-align: justify;
+}

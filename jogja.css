@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5%;
+	padding-left: 5%;
+	background-color: black;
+	border-bottom: 1px grey;
+	width: 100%;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25 px;
+
+}
+nav ul li a {
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	position: revert-layer;
+}
+nav ul li a:hover {
+	color: crimson;
+	transition: 0.5s;
+}
+.tari{
+	width: 100%;
+	padding: 100px 0;
+	background-color: white;
+}
+.rama-yana{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.rama-yana img {
+	height: auto;
+	width: 450px;
+	border-radius: 30px;
+}
+.tari-text {
+	width: 550px;
+}
+.tari-text h2 {
+	color: black;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid red;
+}
+.tari-text p {
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 15px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+.sekaten {
+	width: 100%;
+	padding: 100px 0;
+	background-color: white;
+}
+.can-di{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.can-di img {
+	height: auto;
+	width: 450px;
+	border-radius: 30px;
+}
+.candi-text {
+	width: 550px;
+}
+.candi-text h2 {
+	color: black;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid red;
+}
+.candi-text p {
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 15px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+.tugu {
+	width: 100%;
+	padding: 100px 0;
+	background-color: white;
+}
+.tugu-jogja{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.tugu-jogja img {
+	height: auto;
+	width: 450px;
+	border-radius: 30px;
+}
+.tugu-text {
+	width: 550px;
+}
+.tugu-text h2 {
+	color: black;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid red;
+}
+.tugu-text p {
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 15px;
+	margin-bottom: 45px;
+	text-align: justify;
+}

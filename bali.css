@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5%;
+	padding-left: 5%;
+	background-color: black;
+	border-bottom: 1px grey;
+	width: 100%;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25 px;
+
+}
+nav ul li a {
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	position: revert-layer;
+}
+nav ul li a:hover {
+	color: crimson;
+	transition: 0.5s;
+}
+.kecak{
+	width: 100%;
+	padding: 100px 0;
+	background-color: white;
+}
+.ke-cak{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.ke-cak img {
+	height: auto;
+	width: 450px;
+	border-radius: 30px;
+}
+.kecak-text {
+	width: 550px;
+}
+.kecak-text h2 {
+	color: black;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid red;
+}
+.kecak-text p {
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 15px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+.ngaben {
+	width: 100%;
+	padding: 100px 0;
+	background-color: white;
+}
+.nga-ben{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.nga-ben img {
+	height: auto;
+	width: 450px;
+	border-radius: 30px;
+}
+.ngaben-text {
+	width: 550px;
+}
+.ngaben-text h2 {
+	color: black;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid red;
+}
+.ngaben-text p {
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 15px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
